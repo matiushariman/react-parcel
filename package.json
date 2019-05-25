@@ -4,8 +4,8 @@
   "private": true,
   "description": "ReactJS Boilerplate (Parcel)",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "author": "Matius Hariman N",
   "dependencies": {
