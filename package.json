@@ -5,7 +5,8 @@
   "description": "ReactJS Boilerplate (Parcel)",
   "scripts": {
     "start": "parcel --out-dir build src/index.html",
-    "build": "parcel --out-dir build build src/index.html"
+    "build": "yarn run lint && parcel --out-dir build build src/index.html",
+    "lint": "eslint src/**/*.js"
   },
   "author": "Matius Hariman N",
   "dependencies": {
@@ -16,6 +17,11 @@
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
     "parcel-bundler": "^1.12.3"
   }
 }
