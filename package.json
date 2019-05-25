@@ -5,7 +5,7 @@
   "description": "ReactJS Boilerplate (Parcel)",
   "scripts": {
     "start": "parcel --out-dir build src/index.html",
-    "build": "yarn run lint && parcel --out-dir build build src/index.html",
+    "build": "yarn run lint && parcel build src/index.html",
     "lint": "eslint src/**/*.js"
   },
   "author": "Matius Hariman N",
